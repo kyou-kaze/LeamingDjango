@@ -5,3 +5,30 @@ body
     font-weight: 600;
     color: blue;
 }
+.navber {
+    background-color: lightgray;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navber a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navber-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navber-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
