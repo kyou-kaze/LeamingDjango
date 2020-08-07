@@ -8,11 +8,11 @@
     <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}"
 </head>
 <body>
-    <div class="navbar">
+    <header class="navbar">
         <a href="/" class="navber-brand">Hello Django</a>
         <a href="{% url 'home' %}" class="navbar-item">Home</a>
         <a href="{% url 'about' %}" class="navbar-item">About</a>
-    </div>
+    </header>
 
     <div class="body-content">
         {% block content %}{% endblock %}
