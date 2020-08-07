@@ -4,6 +4,7 @@
     <Name>LeamingDjango</Name>
     <RootNamespace>LeamingDjango</RootNamespace>
     <InterpreterId>CondaEnv|CondaEnv|env3</InterpreterId>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
